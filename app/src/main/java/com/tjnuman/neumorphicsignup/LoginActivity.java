@@ -1,0 +1,17 @@
+package com.tjnuman.neumorphicsignup;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class LoginActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+        Utils.blackIconStatusBar(LoginActivity.this,R.color.baground);
+
+
+    }
+}
