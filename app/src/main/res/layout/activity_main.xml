@@ -34,7 +34,7 @@
         android:fontFamily="sans-serif-light"
         android:text="LUNA"
         android:textColor="@color/text_color"
-        android:textSize="45sp"
+        android:textSize="40dp"
         android:transitionName="logoText" />
 
     <ImageView
@@ -44,6 +44,16 @@
         android:layout_alignParentBottom="true"
         android:src="@drawable/background_bottom"
         android:transitionName="imageTree" />
+
+    <ImageButton
+        android:id="@+id/down"
+        android:layout_width="83dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:background="@null"
+        android:src="@drawable/downarrow" />
 
 
 </RelativeLayout>

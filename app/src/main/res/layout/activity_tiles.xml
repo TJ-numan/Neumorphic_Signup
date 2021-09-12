@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TilesActivity">
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        style="@style/Widget.Neumorph.CardView"
+        app:neumorph_shadowElevation="6dp"
+        app:neumorph_shapeType="basin">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView2"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/neumorphCardView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowElevation="6dp"
+        app:neumorph_shapeType="flat">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView4"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+
+
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/neumorphCardView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowElevation="6dp"
+        app:neumorph_shapeType="pressed">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView3"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView"
+        app:neumorph_lightSource="leftBottom"
+        app:neumorph_shadowElevation="6dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView5"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="68dp"
+
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toEndOf="@+id/neumorphCardView3"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView4"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="6dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView6"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="44dp"
+
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView3"
+        app:neumorph_lightSource="rightTop"
+        app:neumorph_shadowElevation="6dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="64dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView5"
+        app:neumorph_lightSource="rightBottom"
+        app:neumorph_shadowElevation="6dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView6"
+
+        app:neumorph_backgroundColor="@color/baground"
+        app:neumorph_shadowElevation="6dp"
+        app:neumorph_strokeColor="@color/teal_200"
+        app:neumorph_strokeWidth="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
